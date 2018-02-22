@@ -43,3 +43,6 @@
 (depends-on "helm-tramp")
 (depends-on "json-mode")
 (depends-on "plantuml-mode")
+(depends-on "restclient")
+(depends-on "editorconfig")
+(depends-on "prettier-js")
