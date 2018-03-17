@@ -11,11 +11,15 @@
 (add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.css\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.scss\\'" . web-mode))
+;(add-to-list 'auto-mode-alist '("\\.scss\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.xml\\'" . web-mode))
 (setq web-mode-engines-alist
       '(("php"    . "\\.phtml\\'")
         ("blade"  . "\\.blade\\.")))
+
+;; 拡張子 .js でもJSX編集モードに
+(setq web-mode-content-types-alist
+      '(("jsx" . "\\.js[x]?\\'")))
 
 (defun my-web-mode-hook ()
   "Hooks for Web mode."

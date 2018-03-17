@@ -46,3 +46,6 @@
 (depends-on "restclient")
 (depends-on "editorconfig")
 (depends-on "prettier-js")
+(depends-on "helm-etags-plus")
+(depends-on "org-mode")
+(depends-on "scss-mode")
