@@ -1,0 +1,17 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '(("user.kura-connect.njc-web.info"
+  [url-cookie "XSRF-TOKEN" "eyJpdiI6IkdJSG4rZ3ZXNUtsaXNWTm15UUhxOXc9PSIsInZhbHVlIjoiaFNHaHFOREJEazhTUjNxeTZKclo0cWoyOXRuZDFYOHhORHpZcEdCdW80OHR3aE5PQStMMm1JUmdWdVBKZUFnaCtoblFPN2JGaUpFS1UyQnhTN0tFZEE9PSIsIm1hYyI6ImVmNTZkMTc1ZDFiZjIzNDc4ZDkyMmMyYTQ3ZjNkNjJkOTliMWU3Y2Q0N2VjZjc0NWMzZjM5M2E3YzAxNjYwZjMifQ%3D%3D" "06-Apr-2018 11:56:35.00 GMT" "/" "user.kura-connect.njc-web.info" nil]
+  [url-cookie "Max-Age" "7200" "06-Apr-2018 11:56:35.00 GMT" "/" "user.kura-connect.njc-web.info" nil]
+  [url-cookie "renter_service_session" "eyJpdiI6InFYRzZtd1wvNGZsQzdxXC9SMmR0ZUF6QT09IiwidmFsdWUiOiJscEtWdGJKKzhFb1NLWFpcLzBoSVN3cnZkYVp2a0MyclpqblI1Q0VtdjZTN0xhY0NhMzZVc2hBWkQ1VjBZbXlSMUQ3RnJNVXhocU1rOTAwNnhFTzNrWGc9PSIsIm1hYyI6ImRiODBhOGU3OTE4YWI5MGUyMmVhMWM5MjBkYTE5NWRjY2RhZmQxZDZkNzhjYWYxMWE5OWEwYTViZDMxMjUyYjYifQ%3D%3D" "06-Apr-2018 11:56:35.00 GMT" "/" "user.kura-connect.njc-web.info" nil]
+  [url-cookie "HttpOnly" nil "06-Apr-2018 11:56:35.00 GMT" "/" "user.kura-connect.njc-web.info" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
